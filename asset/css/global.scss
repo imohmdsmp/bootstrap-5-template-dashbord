@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: iransans;
+  src: url(../IRANSans/IRANSans_Light.ttf);
+}
+
+body {
+  font-family: iransans;
+}
+
+input {
+  &:focus-visible {
+    outline: none !important;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+
+
+.text-purple {
+  color: rgb(88, 0, 147);
+}
