@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+      "
+    />
+    <link rel="stylesheet" href="asset/css/global.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/media.css" />
+  </head>
+  <body id="dashboard">
+    <header
+      class="container-fluid border-bottom py-2 px-lg-4 px-xxl-5"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg col-auto d-flex align-items-center">
+          <figure class="logo d-none d-lg-flex">
+            <img src="asset/img/logo_small.png" alt="" />
+          </figure>
+          <div
+            class="d-flex align-items-center mega-menu fw-bold mx-xxl-5 mx-4"
+          >
+            <ul class="p-0">
+              <figure class="logo-mega-menu d-lg-none">
+                <img src="asset/img/brandmark_small.png" alt="" />
+              </figure>
+              <ul class="p-0 d-lg-none">
+                <li class="d-flex">
+                  <i class="bi-person d-flex align-items-center"></i>
+                  <a href="#">پروفایل من</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="d-lg-none w-100 me-0 d-flex justify-content-between"
+                    onclick="MegaMenu()"
+                  >
+                    <span class="d-flex"
+                      ><i class="bi-person d-flex"></i> دسته بندی
+                      ها</span
+                    >
+                    <i class="bi-chevron-left d-flex"></i>
+                  </a>
+                </li>
+              </ul>
+
+              <!--------------------------------- first sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- seccond sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- third sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- forh sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- fifth sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- sixth sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- seventh sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- eight sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!--------------------------------- nineth sub meu ------------------------------>
+              <li
+                class="d-lg-flex mt-2 me-3 me-lg-0 flex-column d-none align-items-center justify-content-between"
+              >
+                <a
+                  onclick="ToggleSubMenu(event)"
+                  href="#"
+                  class="d-flex w-100 text-dark justify-content-between"
+                >
+                  <span>
+                    <i class="bi-laptop"></i>
+                    برنامه نویسی
+                  </span>
+                  <i class="d-flex bi-chevron-left"></i>
+                </a>
+
+                <ul class="row my-4 pe-3 ps-1">
+                  <!-------------------------------------- first grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+
+                    <div class="flex-column pe-3 pt-2">
+                      <!-------------------------------------- first grand grand sub meu  ----------------------------->
+
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+
+                  <!-------------------------------------- seccond grand sub meu  ----------------------------->
+                  <li
+                    class="col-lg-auto m-lg-4 col-12 text-lg-center d-flex flex-column mb-3"
+                  >
+                    <h6
+                      class="fw-bold d-flex justify-content-between align-items-center"
+                      onclick="ToggleSubMenu(event)"
+                    >
+                      زبان های برنامه نویسی
+                      <i class="bi-plus d-lg-none"></i>
+                    </h6>
+                    <!-- first grand grand sub menu -->
+                    <div class="flex-column pe-3 pt-2">
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                      <a class="my-1" href="#">برنامه نویسان</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <ul class="d-lg-none">
+                <li>
+                  <a href="" class="me-0">
+                    <i class="bi-person"></i>
+                    پشتیبانی
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="me-0">
+                    <i class="bi-person"></i>
+                    خروج
+                  </a>
+                </li>
+              </ul>
+            </ul>
+            <i class="bi-list d-flex ms-1"></i>
+            <span class="d-none d-lg-inline-block">دسته بندی ها</span>
+          </div>
+          <a
+            href=""
+            class="fw-bolder fs-6 text-purple d-none d-lg-block"
+          >
+            مکتب کلاس
+          </a>
+        </div>
+        <div class="col-auto d-lg-none">
+          <a href="">
+            <img src="asset/img/logo_small.png" alt="" />
+          </a>
+        </div>
+        <div class="col-auto d-flex position-relative">
+          <i class="bi-search d-lg-none" onclick="SearchToggle()"></i>
+          <div class="input-groups ms-5 d-none d-lg-flex">
+            <input
+              type="text"
+              class="px-3"
+              placeholder="چه چیزی می خواهید یاد بگیرید؟"
+            />
+            <i class="bi-search"></i>
+          </div>
+          <div class="d-lg-flex d-none">
+            <button class="button--orange">تدریس در مکبت</button>
+            <button>پروفایل</button>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid pb-5">
+      <section class="container-lg px-lg-5">
+        <h5 class="text-end pe-lg-5">پروفایل من</h5>
+        <div class="row align-items-start mx-sm-5">
+          <div
+            class="col-lg nav flex-column nav-pills me-lg-3 user-profile-sidebar"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <figure class="profile-img">
+              <img src="https://picsum.photos/200/300" alt="" />
+            </figure>
+            <h5 class="text-center">User Name</h5>
+            <p class="text-center">Date</p>
+            <button
+              class="nav-link text-end rounded-0 active"
+              id="v-pills-1-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-1"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-1"
+              aria-selected="true"
+            >
+              <i class="bi-person"></i>
+              پروفایل من
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-2-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-2"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-2"
+              aria-selected="false"
+            >
+              <i class="bi-pencil-square"></i> ویرایش پروفایل
+            </button>
+
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-3-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-3"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-3"
+              aria-selected="false"
+            >
+              <i class="bi-cart"></i>
+              سفارشات من
+            </button>
+
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-4-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-4"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-4"
+              aria-selected="false"
+            >
+              <i class="bi-book"></i>
+              دوره های آنلاین
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-5-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-5"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-5"
+              aria-selected="false"
+            >
+              <i class="bi-bookmark-check"></i>
+              دوره های حضوری
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-6-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-6"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-6"
+              aria-selected="false"
+            >
+              <i class="bi-bookmark-dash"></i>
+              فایل های طلایی
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-7-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-7"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-7"
+              aria-selected="false"
+            >
+              <i class="bi-messenger"></i>
+              پیام های من
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-8-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-8"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-8"
+              aria-selected="false"
+            >
+              <i class="bi-ticket"></i>
+              تیکت های پشتیبانی
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-9-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-9"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-9"
+              aria-selected="false"
+            >
+              <i class="bi-link"></i>
+              لینک بازاریابی من
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-10-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-10"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-10"
+              aria-selected="false"
+            >
+              <i class="bi-cash"></i>
+              درآمد بازاریابی من
+            </button>
+            <button
+              class="nav-link text-end rounded-0"
+              id="v-pills-11-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-11"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-11"
+              aria-selected="false"
+            >
+              <i class="bi-currency-dollar"></i>
+              درخواست تسویه حساب
+            </button>
+          </div>
+
+          <div
+            class="col tab-content px-0 me-lg-4"
+            id="v-pills-tabContent"
+          >
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-1"
+              role="tabpanel"
+              aria-labelledby="v-pills-1-tab"
+              tabindex="0"
+            >
+              <table
+                class="table table-ligh table-striped table align-middle"
+              >
+                <tbody class="border">
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>
+                      <a href="#">برای عضویت طلایی کلیک کنید</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td class="d-flex flex-column">
+                      <span>0 تومان</span>
+                      <a href="#" class="text-success">
+                        افزایش اعتبار کیف پول
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-2"
+              role="tabpanel"
+              aria-labelledby="v-pills-2-tab"
+              tabindex="0"
+            >
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">کلمه عبور</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark"
+                    >تائید کلمه ی عبور</label
+                  >
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark"
+                    >تائید کلمه ی عبور</label
+                  >
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark"
+                    >تائید کلمه ی عبور</label
+                  >
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">نام</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">نام خانوادگی</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">جنسیت</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">تاریخ تولد</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="date"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">نام شرکت</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">شغل</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">تلفن</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">فکس</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">سایت</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">کد پستی</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">استان</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">شهر</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">آدرس</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="text"
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="my-4">
+                <div class="d-flex justify-content-between">
+                  <label for="" class="text-dark">عکس پرفایل</label>
+                  <i class="bi-lock text-secondary"></i>
+                </div>
+                <input
+                  class="form-control mt-2 border-dark"
+                  type="file"
+                  aria-label="default input example"
+                />
+              </div>
+              <button class="btn btn-success">ویرایش پروفایل</button>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-3"
+              role="tabpanel"
+              aria-labelledby="v-pills-3-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-4"
+              role="tabpanel"
+              aria-labelledby="v-pills-4-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-5"
+              role="tabpanel"
+              aria-labelledby="v-pills-5-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-6"
+              role="tabpanel"
+              aria-labelledby="v-pills-6-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-7"
+              role="tabpanel"
+              aria-labelledby="v-pills-7-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-8"
+              role="tabpanel"
+              aria-labelledby="v-pills-8-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-9"
+              role="tabpanel"
+              aria-labelledby="v-pills-9-tab"
+              tabindex="0"
+            >
+              <table
+                class="table table-ligh table-striped table align-middle"
+              >
+                <tbody class="border">
+                  <thead>
+                    <th>عنوان محصول</th>
+                    <th>درصد کمیسیون</th>
+                    <th>لینک محصول</th>
+                  </thead>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>تاریخ آخرین ورود</td>
+                    <td>1401/09/24 - 14:41</td>
+                    <td>
+                      <a href="">link</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-10"
+              role="tabpanel"
+              aria-labelledby="v-pills-10-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-11"
+              role="tabpanel"
+              aria-labelledby="v-pills-11-tab"
+              tabindex="0"
+            >
+              <h2>خرید</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid mt-5">
+      <div class="row align-items-baseline pt-4 pe-5">
+        <div class="col-auto my-2 d-flex flex-column footer-about">
+          <a href="">
+            <img src="asset/img/brandmark_small.png" alt="" />
+          </a>
+          <p>
+            مکتب&zwnj;خونه، آموزش مجازی با کیفیت برای همه؛ بدون مرز،
+            همیشه، همه&zwnj;جا
+          </p>
+          <img src="asset/img/samandehi.png" alt="" class="inamad" />
+        </div>
+        <div class="col-auto my-2 d-flex footer-links flex-wrap">
+          <div>
+            <ul>
+              <h4 class="color-dark">مکتب&zwnj;خونه</h4>
+              <li>
+                <a
+                  href="/maktab-business-request/"
+                  class="color-gunmetal"
+                  >آموزش سازمانی</a
+                >
+              </li>
+              <li>
+                <a href="/aboutus/" class="color-gunmetal"
+                  >درباره&zwnj;ی ما</a
+                >
+              </li>
+              <li>
+                <a class="color-gunmetal" href="/mag/">وبلاگ</a>
+              </li>
+              <li>
+                <a href="/faq/" class="color-gunmetal"
+                  >سوالات متداول</a
+                >
+              </li>
+              <li>
+                <a href="/ToS/" class="color-gunmetal"
+                  >شرایط استفاده</a
+                >
+              </li>
+              <li>
+                <a href="#">مکتب&zwnj;کلاس</a>
+              </li>
+              <li>
+                <a
+                  href="https://youtube.com/playlist?list=PLAu43_uf7P19xsf1ffHYP9-_9h2mcNOLS"
+                  class="color-gunmetal"
+                  >مکتب&zwnj;تاک</a
+                >
+              </li>
+
+              <li>
+                <a href="/teacher-info" class="color-gunmetal"
+                  >تدریس در مکتب&zwnj;خونه</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="footer__links">
+              <h4 class="color-dark">ارتباط با مکتب&zwnj;خونه</h4>
+              <li>
+                <a href="/support/" class="color-gunmetal"
+                  >پشتیبانی</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://mktb.me/472j"
+                  target="_blank"
+                  class="color-gunmetal"
+                  >فرصت&zwnj;های شغلی</a
+                >
+              </li>
+
+              <li>
+                <a href="/certificates/" class="color-gunmetal"
+                  >استعلام گواهی&zwnj;نامه</a
+                >
+              </li>
+              <li>
+                <a href="/content_landing/" class="color-gunmetal"
+                  >همکاری در تولید محتوا</a
+                >
+              </li>
+              <li>
+                <a href="/beta-test/" class="color-gunmetal"
+                  >بتاتست</a
+                >
+              </li>
+              <li>
+                <a href="/mentors/" class="color-gunmetal"
+                  >منتور شوید</a
+                >
+              </li>
+              <li>
+                <a href="/contactus/" class="color-gunmetal"
+                  >تماس با ما</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h4 class="color-dark">دسته&zwnj;بندی&zwnj;ها</h4>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%88-it-mk58/"
+                  >برنامه&zwnj;نویسی</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D8%A2%DB%8C%D8%AA%DB%8C-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-mk611/"
+                  >آی&zwnj;تی و نرم&zwnj;افزار</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D8%B2%D8%A8%D8%A7%D9%86-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C-mk54/"
+                  >زبان های خارجی</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%B3%D8%A8-%DA%A9%D8%A7%D8%B1-mk35/"
+                  >مدیریت و کسب و کار</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D9%85%D8%A7%D9%84%DB%8C-%D8%B3%D8%B1%D9%85%D8%A7%DB%8C%D9%87%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-mk248/"
+                  >مالی و سرمایه&zwnj;گذاری</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-mk89/"
+                  >دانشگاهی - فنی و مهندسی</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D8%B9%D9%84%D9%88%D9%85-%D9%BE%D8%A7%DB%8C%D9%87-%D9%88-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-mk126/"
+                  >دانشگاهی - علوم پایه، انسانی و پزشکی</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a
+                  href="/learn/%D9%85%D9%87%D8%A7%D8%B1%D8%AA%D9%87%D8%A7%DB%8C-%D8%B2%D9%86%D8%AF%DA%AF%DB%8C-mk551/"
+                  >مهارت&zwnj;های زندگی</a
+                >
+              </li>
+
+              <li class="color-gunmetal">
+                <a href="/learn/%D9%87%D9%86%D8%B1-mk1/">هنر</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col my-2 footer__socially">
+          <h6>مکتب‌خونه را در شبکه‌های اجتماعی دنبال کنید:</h6>
+          <div
+            class="d-flex border-bottom border-light pb-4 mb-4 flex-wrap"
+          >
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-twitter"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-instagram"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-facebook"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-telegram"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-linkedin"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-youtube"></i>
+            </a>
+            <a href="" class="mx-3 fs-5">
+              <i class="bi-google"></i>
+            </a>
+          </div>
+          <div class="d-flex flex-wrap">
+            <button class="footer__download-button">
+              دانلود گوگل پلی
+              <i class="bi-download"></i>
+            </button>
+            <button class="footer__download-button">
+              دانلود گوگل پلی
+              <i class="bi-download"></i>
+            </button>
+            <button class="footer__download-button">
+              دانلود گوگل پلی
+              <i class="bi-download"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="under-footer py-4">
+        <p class="text-center">
+          ندای دانش همراه ایرانیان همه حقوق محفوظ است © 1401
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="asset/js/master.js"></script>
+  <script src="asset/js/bootstrap.bundle.min.js"></script>
+</html>

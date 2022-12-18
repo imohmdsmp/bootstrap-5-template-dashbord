@@ -1,4 +1,8 @@
 @media (min-width: 994px) {
+  #mainpage main .main-section-top {
+    background-size: contain;
+    height: 34vw;
+  }
   .mega-menu > ul > li > ul > li div {
     display: flex;
   }

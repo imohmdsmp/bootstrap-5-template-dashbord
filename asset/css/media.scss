@@ -2,6 +2,11 @@
 }
 
 @media (min-width: 994px) {
+  #mainpage main .main-section-top {
+    background-size: contain;
+    height: 34vw;
+  }
+
   .mega-menu > ul > li > ul > li div {
     display: flex;
   }
@@ -19,11 +24,11 @@
     padding: 15px 0;
     transition: 0.4s;
     border: 1px solid white;
-    padding:12px;
+    padding: 12px;
     border-radius: 5px;
     &:hover {
-        background-color: #f9f9fb;
-        border-color:#e0e3ec;
+      background-color: #f9f9fb;
+      border-color: #e0e3ec;
       > ul {
         display: block;
       }
