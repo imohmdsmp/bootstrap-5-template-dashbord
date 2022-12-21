@@ -1,6 +1,64 @@
 @charset "UTF-8";
+#singleProduct main {
+  background-color: #f9f9fb;
+  padding-top: 67px;
+}
+#singleProduct main .course-intro {
+  background-image: url(../img/NGN.webp);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center center;
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+#singleProduct main .course-intro .text-main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  z-index: 20000;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  background-color: rgba(154, 154, 154, 0.496);
+}
+#singleProduct main .course-intro .text-main h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.video-popup {
+  position: relative;
+}
+.video-popup img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 70vw;
+}
+.video-popup .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+
 header {
-  z-index: 200;
+  z-index: 80000;
 }
 
 #productpage main {
@@ -409,6 +467,18 @@ button {
   width: 90px;
 }
 
+.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 67px;
+  z-index: 10;
+  left: 0;
+}
+.nav-sticky li {
+  padding: 15px 10px;
+  margin: 5px 10px;
+}
+
 .procuct-box-theme {
   background: #003554 !important;
 }
@@ -425,8 +495,9 @@ button {
 .procuct-box-theme .color-pink {
   color: #db8a40;
 }
-.procuct-box-theme .fz-12 {
-  font-size: 12px;
+
+.fz-12 {
+  font-size: 12px !important;
 }
 
 .blue-btn {
@@ -436,6 +507,14 @@ button {
   font-size: 16px;
   display: flex;
   justify-content: center;
+}
+
+.bg-lightgray {
+  background-color: #e0e3ec;
+}
+
+.color-gold {
+  color: gold;
 }
 
 #dashboard main {
