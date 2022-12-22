@@ -1,8 +1,51 @@
 @charset "UTF-8";
+#singleBlog main {
+  background-color: #f9f9fb;
+  padding-top: 67px;
+}
+#singleBlog main .nav-pills .nav-link.active, #singleBlog main .nav-pills .show > .nav-link {
+  background-color: #009ca7 !important;
+}
+#singleBlog main .nav-link {
+  border-radius: 10px 10px 0 0 !important;
+}
+#singleBlog main .collapse-white .col-auto figure {
+  max-width: 160px;
+  height: 100%;
+}
+#singleBlog main .collapse-white .col-auto figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#singleBlog main .course-intro {
+  background-image: url(../img/1.webp) !important;
+}
+
+.max-height-initial {
+  max-height: initial !important;
+}
+
+.teachers figure {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.teachers figure img {
+  width: 100%;
+  height: 100%;
+}
+
+#singleBlog main,
 #singleProduct main {
   background-color: #f9f9fb;
   padding-top: 67px;
 }
+#singleBlog main .white-box h2,
+#singleProduct main .white-box h2 {
+  margin-bottom: 25px;
+}
+#singleBlog main .course-intro,
 #singleProduct main .course-intro {
   background-image: url(../img/NGN.webp);
   background-repeat: no-repeat;
@@ -13,6 +56,7 @@
   width: 100%;
   position: relative;
 }
+#singleBlog main .course-intro .text-main,
 #singleProduct main .course-intro .text-main {
   position: absolute;
   display: flex;
@@ -28,6 +72,7 @@
           backdrop-filter: blur(6px);
   background-color: rgba(154, 154, 154, 0.496);
 }
+#singleBlog main .course-intro .text-main h1,
 #singleProduct main .course-intro .text-main h1 {
   font-size: 48px;
   font-weight: 900;
@@ -503,7 +548,7 @@ button {
 .blue-btn {
   border-radius: 40px;
   color: white;
-  background-color: #009ca7;
+  background-color: #009ca7 !important;
   font-size: 16px;
   display: flex;
   justify-content: center;
