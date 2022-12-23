@@ -1,3 +1,55 @@
+@media (max-width: 994px) {
+  #weblog {
+    .nav-item {
+      > ul {
+        position: relative;
+        width: 100%;
+        background: #1f2024;
+        border: none;
+        box-shadow: none;
+        li {
+          a {
+            border: none !important;
+          }
+          ul {
+            position: relative !important;
+            width: 100% !important;
+            background-color: #1f2024 !important;
+            box-shadow: none;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+  #navbarTogglerDemo03 {
+    overflow-y: scroll;
+    position: fixed;
+    background: #1f2024;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    transform: translateX(-100%);
+    transition: 0.3s;
+    .fz-12 {
+      font-size: 16px !important;
+    }
+    i {
+      color: white !important;
+    }
+    a {
+      color: white !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .blue-btn {
+      background: none !important;
+      justify-content: start !important;
+    }
+  }
+}
+
 @media (min-width: 764px) {
 }
 
@@ -5,6 +57,17 @@
   #mainpage main .main-section-top {
     background-size: contain;
     height: 34vw;
+  }
+
+  #weblog .seccond-slider-img figcaption h2,
+  #weblog .first-slider-img figcaption h2 {
+    font-size: 33px;
+    font-weight: 900;
+  }
+
+  #weblog .seccond-slider-img,
+  #weblog .first-slider-img {
+    max-height: 450px;
   }
 
   .mega-menu > ul > li > ul > li div {

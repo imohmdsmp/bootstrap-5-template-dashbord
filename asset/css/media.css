@@ -1,7 +1,61 @@
+@media (max-width: 994px) {
+  #weblog .nav-item > ul {
+    position: relative;
+    width: 100%;
+    background: #1f2024;
+    border: none;
+    box-shadow: none;
+  }
+  #weblog .nav-item > ul li a {
+    border: none !important;
+  }
+  #weblog .nav-item > ul li ul {
+    position: relative !important;
+    width: 100% !important;
+    background-color: #1f2024 !important;
+    box-shadow: none;
+    right: 0;
+  }
+  #navbarTogglerDemo03 {
+    overflow-y: scroll;
+    position: fixed;
+    background: #1f2024;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+  #navbarTogglerDemo03 .fz-12 {
+    font-size: 16px !important;
+  }
+  #navbarTogglerDemo03 i {
+    color: white !important;
+  }
+  #navbarTogglerDemo03 a {
+    color: white !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  #navbarTogglerDemo03 .blue-btn {
+    background: none !important;
+    justify-content: start !important;
+  }
+}
 @media (min-width: 994px) {
   #mainpage main .main-section-top {
     background-size: contain;
     height: 34vw;
+  }
+  #weblog .seccond-slider-img figcaption h2,
+#weblog .first-slider-img figcaption h2 {
+    font-size: 33px;
+    font-weight: 900;
+  }
+  #weblog .seccond-slider-img,
+#weblog .first-slider-img {
+    max-height: 450px;
   }
   .mega-menu > ul > li > ul > li div {
     display: flex;

@@ -59,7 +59,7 @@ var swiper = new Swiper('.firstProduct', {
     576: {
       slidesPerView: 2,
       spaceBetween: 20,
-      slidesPerGroup:2,
+      slidesPerGroup: 2,
     },
     994: {
       slidesPerView: 3,
@@ -73,3 +73,98 @@ var swiper = new Swiper('.firstProduct', {
     },
   },
 });
+
+var swiper = new Swiper('.autoplaySlide', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  slidesPerGroup: 1,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+var swiper = new Swiper('.blogProduct', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  slidesPerGroup: 1,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+  breakpoints: {
+    576: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup: 4,
+    },
+  },
+});
+
+var swiper = new Swiper('.autoplaySlidePagination', {
+  autoplay: {
+    delay: 2000,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 50,
+  slidesPerGroup: 1,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      slidesPerGroup: 2,
+    },
+    994: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      slidesPerGroup: 3,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 1,
+      slidesPerGroup: 4,
+    },
+  },
+});
+
+let mode2 = 1;
+function BlackNavbar() {
+  if (mode2 % 2) {
+    document.getElementById('navbarTogglerDemo03').style.cssText =
+      'transform:translateX(0)';
+      document.querySelector('nav.border-bottom').style.display='none'
+  } else {
+    document.getElementById('navbarTogglerDemo03').style.cssText =
+      'transform:translateX(-100%)';
+      document.querySelector('nav.border-bottom').style.display='block'
+  }
+
+
+  mode2++;
+}
